@@ -1,5 +1,5 @@
 .item{
-    /* width: 700px; */
+
     background-color: #fff;
   }
   .shadow-effect {
@@ -76,6 +76,6 @@
     width: 20px;
   }
   .owl-item.active{
-    width: 700px !important;
+
     z-index: 10;
   }
