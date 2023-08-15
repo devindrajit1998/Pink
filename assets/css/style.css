@@ -161,6 +161,9 @@
 }
 
 /* Testimonial section start  */
+.testimonial_section{
+background-image: url(/assets/img/testi_bg.png);
+}
 .test_title{
   font-size: 53px;
   font-family: "Poppins", sans-serif;
