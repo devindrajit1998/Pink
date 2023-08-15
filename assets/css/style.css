@@ -375,7 +375,7 @@
     margin-top: -80px;
   }
 
-  .card {
+  .feature_card {
     margin-bottom: 15px;
   }
 
@@ -393,7 +393,7 @@
     font-size: 14px;
   }
 
-  .card:hover {
+  .feature_card:hover {
     transform: scale(1.04);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     z-index: 10;
@@ -410,9 +410,20 @@
   .about_text {
     font-size: 12px;
   }
+  /* Adjust testimonial  */
  .testi_btn{
   display: none !important;
  }
+ .test_title {
+  font-size: 28px;
+  line-height: 32px;
+  margin-top: 45px;
+}
+.testi_about{
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0 115px 0 115px;
+}
 
 }
 
@@ -443,7 +454,7 @@
     margin-top: -100px;
   }
 
-  .card {
+  .feature_card {
     margin-bottom: 20px;
   }
 
