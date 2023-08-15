@@ -166,7 +166,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 50px;
+
 }
 .test_title {
   font-size: 53px;
@@ -248,6 +248,7 @@
   left: -120px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 25px !important;
+  margin-top: 10px;
 }
 .owl-carousel .owl-item img {
   -webkit-transform-style: preserve-3d;
@@ -314,6 +315,16 @@
   top: 206px;
   left: 24px;
   z-index: 10;
+}
+#testimonials-list.owl-carousel .owl-dots .owl-dot span {
+  background: #974E8A !important;
+  display: inline-block;
+  height: 10px;
+  width: 25px;
+  border-radius: 5px;
+}
+#testimonials-list.owl-carousel .owl-dots .owl-dot.active span, #testimonials-list.owl-carousel .owl-dots .owl-dot:hover span{
+  background-color: #974E8A !important;
 }
 
 /* Media query for screens with a maximum width of 600px (Smartphone) */
