@@ -422,7 +422,9 @@
 .testi_about{
   font-size: 14px;
   font-weight: 500;
-  padding: 0 115px 0 115px;
+  padding: 0 24px 0 130px;
+  width: 470px;
+  display: block;
 }
 
 }
