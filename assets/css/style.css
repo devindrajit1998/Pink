@@ -160,6 +160,29 @@
   font-weight: 400;
 }
 
+/* section 3 css  */
+.section_3{
+  background-image: url(/assets/img/banner2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.title_3{
+  font-size: 53px;
+  font-family: "Poppins", sans-serif;
+  line-height: 60px;
+  text-align: center;
+  color: #fff;
+}
+.section3_btn{
+  font-size: 16px;
+  background-color: #BE82B5;
+  color: #fff;
+  padding: 8px 18px;
+  font-family: "Poppins", sans-serif;
+font-weight: 500;
+}
+
 /* Testimonial section start  */
 .testimonial_section {
   background-image: url(/assets/img/testi_bg.png);
@@ -412,6 +435,24 @@
 
   .about_text {
     font-size: 12px;
+  }
+
+  /* Adjust section 3  */
+  .section_3 {
+    padding: 10px !important;
+  }
+  .title_3 {
+    font-size: 28px;
+    line-height: 32px;
+    margin-top: 10px;
+  }
+  .about_text {
+    font-size: 14px;
+    padding: 2rem;
+  }
+  .section3_btn {
+    font-size: 14px;
+    margin-bottom: 35px;
   }
   /* Adjust testimonial  */
  .testi_btn{
