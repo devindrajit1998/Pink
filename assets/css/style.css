@@ -161,47 +161,45 @@
 }
 
 /* Testimonial section start  */
-.testimonial_section{
-background-image: url(/assets/img/testi_bg.png);
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-padding-bottom: 50px;
+.testimonial_section {
+  background-image: url(/assets/img/testi_bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 50px;
 }
-.test_title{
+.test_title {
   font-size: 53px;
   font-family: "Poppins", sans-serif;
   line-height: 60px;
   text-align: center;
   padding-bottom: 40px;
-  
 }
 
-.test_img{
+.test_img {
   margin-top: -60px !important;
   border: 5px solid #fff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-.card_title{
+.card_title {
   font-size: 20px;
   font-family: "Poppins", sans-serif;
-font-weight: 500;
+  font-weight: 500;
 }
-.testi_about{
+.testi_about {
   font-size: 16px;
   font-weight: 500;
 }
 .testimonial-star {
-  color: #FEB900;
+  color: #feb900;
   font-size: 24px;
   margin-right: 5px;
 }
 /* ..........  */
-.owl-stage{
+.owl-stage {
   padding-top: 70px !important;
 }
-.item{
-
+.item {
   background-color: #fff;
 }
 .shadow-effect {
@@ -232,14 +230,14 @@ font-weight: 500;
 }
 #testimonials-list .item {
   text-align: center;
-
   margin-bottom: 100px;
-  opacity: 0.2;
+  opacity: 1;
   -webkit-transform: scale3d(0.8, 0.8, 1);
   transform: scale3d(0.8, 0.8, 1);
   transition: all 0.3s ease-in-out;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 25px !important;
 }
-
 
 #testimonials-list .owl-item.active.center .item {
   opacity: 1;
@@ -248,7 +246,8 @@ font-weight: 500;
   min-width: 600px;
   position: absolute !important;
   left: -120px;
-  
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 25px !important;
 }
 .owl-carousel .owl-item img {
   -webkit-transform-style: preserve-3d;
@@ -283,22 +282,39 @@ font-weight: 500;
   transition: all 250ms ease-out 0s;
   width: 20px;
 }
-.owl-item.active.center{
+.owl-item.active.center {
   z-index: 10;
   transition: transform 0.3s ease-in-out;
 }
 
-.testi_btn{
+.testi_btn {
   border: 2px solid #6e2a61;
   border-radius: 50%;
   height: 42px;
   width: 42px;
 }
-.testi_btn:hover{
+.testi_btn:hover {
   background-color: #6e2a61;
   color: #fff;
 }
-
+.slider-controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;    
+}
+.right_btn{
+  position: absolute;
+  top: 206px;
+  left: 1073px;
+  z-index: 10;
+}
+.left_btn{
+  position: absolute;
+  top: 206px;
+  left: 24px;
+  z-index: 10;
+}
 
 /* Media query for screens with a maximum width of 600px (Smartphone) */
 @media only screen and (max-width: 600px) {
