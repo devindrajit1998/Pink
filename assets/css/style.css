@@ -81,7 +81,7 @@
   margin-top: -135px;
 }
 
-.card-body {
+.f_Card_Body  {
   padding-bottom: 35px;
 }
 .custom-col {
@@ -140,9 +140,9 @@
 .card_img {
   margin: 40px 0 20px 0;
 }
-.card-body:hover .card-title,
-.card-body:hover .card-text,
-.card-body:hover .card_link {
+.f_Card_Body:hover .card-title,
+.f_Card_Body:hover .card-text,
+.f_Card_Body:hover .card_link {
   color: white;
 }
 
@@ -411,6 +411,10 @@
   .about_text {
     font-size: 12px;
   }
+ .testi_btn{
+  display: none !important;
+ }
+
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
@@ -467,4 +471,6 @@
   .about_text {
     font-size: 16px;
   }
+  .testi_btn {
+display: none;}
 }
