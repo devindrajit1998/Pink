@@ -392,6 +392,9 @@
   .card_link {
     font-size: 14px;
   }
+  .feature_card{
+    border-radius: 15px;
+  }
 
   .feature_card:hover {
     transform: scale(1.04);
@@ -426,6 +429,7 @@
   width: 470px;
   display: block;
 }
+
 
 }
 
